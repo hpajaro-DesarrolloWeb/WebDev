@@ -1,7 +1,67 @@
 /* *{color:red;}    Ejm selector universal*/
 h1{color:peru;} 
-.banner{width: 400px;height:300px;} 
+.banner img{
+	width: 600px;
+	height:500px;
+} 
+.centrar{
+  width: 600px;
+  margin: 0 auto;
+}
 header nav ul {
   list-style:none; 
 
 }
+.menu{
+	float:right;
+}
+.menu li{
+	float:left;
+    margin-right: 10px;
+    border-style: solid;
+    font-size: 24px;
+    border-width: 1px;
+    padding:10px;
+    border-color: #eee;
+    border-radius: 8px;
+}
+.menu li a{
+  display:block;
+  color: black;
+  font-weight:bold; 
+  text-decoration:none; 
+  text-align: center;
+  padding:8px; 
+
+}
+.menu li a:hover{
+  background-color: #96B5F6;
+  border-radius: 8px;
+  height: 28px;
+
+}
+.encab{
+	float:left;
+
+}
+#logo{
+   box-shadow: 4px 8px  #000;
+}
+main{
+	width: 70%;
+	float:left;
+}
+.lado{
+	float:left;
+   width:20%; 
+
+}
+.pie{
+  width: 95%;
+  clear:left;
+  background-color:#232f3E; 
+  height: 80px;
+  margin-left: 20px;
+  color:white;
+}
+
