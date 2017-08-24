@@ -64,4 +64,8 @@ main{
   margin-left: 20px;
   color:white;
 }
+#error{
+  color:red;
+  /*font-weight: bold;*/
+}
 
