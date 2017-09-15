@@ -1,0 +1,16 @@
+header {
+  display:flex;
+  flex-direction: row;
+  align-content:flex-start;	
+}
+.banner{
+  clear:both;
+  position: relative;
+  background-image:url("images/sanfrancisco.jpg") ;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 900px;
+  box-shadow: 1px 4px 4px #1c1a19;
+  border-radius:5px;
+   
+}
